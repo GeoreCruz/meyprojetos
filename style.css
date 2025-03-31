@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: "Inter", sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    position: absolute;
+    width: 1330px;
+    
+}
+
+header {
+    width: 1330px;
+    height: 150px;
+    background-color: #204E5A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    
+}
+
+header img{
+    margin-left: 150px;
+    width: 10%;
+    height: auto;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    
+    align-items: center;
+}
+
+header nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+}
+.botaocurriculo{
+    margin-right: 150px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    width: 123px;
+    height: 30px;
+    background-color: #A7D79C;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.botaocurriculo:hover{
+    background-color: #0f1d0f;
+
+}
+.botaocurriculo{
+    padding-top: 13px;
+    padding-bottom: -8px;
+}
+.sessao1{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    background-color: #3BA99C;
+    margin-top: 150px;
+}
+
+.sessao1 img{
+    width: 400px;
+    height: 400px;
+    border-radius: 300px;  
+}
+.sessao1 .foto{
+    width: 100%px;
+    height: 405px;
+    background-color: white;
+    margin-left:  150px;; 
+    border-radius: 300px;
+    box-shadow: 0 7px 8px rgba(0, 0, 0, 0.1);
+   
+}
+
+.bio{
+    font-family: "Inter", sans-serif;
+    width: 700px;
+    height: 250px;
+    margin-right: 150px;
+   
+  
+}
+
+.bio .titulo{
+    font-size: 64px;
+    text-align: center;
+}
+.bio .subtitulo{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 5px; 
+}
+.bio p{
+    font-size: 16px;
+    text-align: justify;
+}
+
+.sessao2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    height: 450px;
+    background-color: #C7EEDA;
+    
+}
+.sessao2 .info{
+    width: 350px;
+    height: 210px;
+    background-color: white;
+    box-shadow: 0 7px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.info h2{
+    font-size: 18px;
+    text-align: center;
+    margin: 10px;
+    font-weight: 800;
+}
+.info p{
+    font-size: 16px;
+    text-align: center;
+    margin: 10px;
+    font-weight: 500;
+    text-align: justify;
+    margin: 10px 15px 10px 15px;
+    
+}
+
+.sessao2 .projeto1{
+    width: 380px;
+    height: 380px;
+    background-color: white;
+    box-shadow: 0 7px 8px rgba(0, 0, 0, 0.1);
+}
+.sessao2 .projeto2{
+    width: 380px;
+    height: 380px;
+    background-color: white;
+    box-shadow: 0 7px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.sessao2 .projeto1{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.projeto1 .title{
+    display: flex;
+    font-size: 18px;
+    background-color: #204E5A;
+    width: 170px;
+    height: 30px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 35px auto;
+    padding: 8px;
+}
+.adNotas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 150px;
+    border: 1px solid ;
+    margin: auto;
+
+}
+
+.cal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.cal p{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.cal input{
+    padding: 0 5px;
+    width: 50px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+.cal .adicionar {
+    background-color: #204E5A;
+    color: white;
+    width: 100px;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 15px;
+
+
+}
+.projeto1 .btn1{
+    width: 100px;
+    height: 35px;
+    margin: 20px auto;
+    background-color: #204E5A;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.projeto1 .result{
+    width: 200px;
+    height: 60px;
+    border: 1px solid #204E5A;
+    margin: 5px auto 30px;
+    padding: 8px 10px;
+    text-align: center;
+    
+}
+
+/*projeto 2*/
+
+.projeto2 .title{
+    display: flex;
+    font-size: 18px;
+    background-color: #204E5A;
+    width: 170px;
+    height: 30px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 30px auto;
+    padding: 8px;
+}
+
+.nom, .alt, .peso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin: 10px;
+}
+.nom, .alt, .peso p{
+    font-size: 16px;
+    font-weight: 700;
+}
+.nom input{
+    padding: 0 5px;
+    width: 200px;
+    height: 20px;
+}
+.alt input{
+    width: 50px;
+    height: 20px;
+    padding: 0 5px;
+    margin-right: 146px;
+}
+
+.peso input{
+    width: 50px;
+    height: 20px;
+    padding: 0 5px;
+    margin-right: 150px;
+}
+.projeto2 button{
+    width: 150px;
+    height: 50px;
+    margin: 15px 100px;
+    background-color: #204E5A;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.projeto2 .res{
+    width: 225px;
+    height: 40px;
+    border: 1px solid #204E5A;
+    margin: 5px auto 30px;
+    padding: 8px 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape{
+    background-color:  #204E5A;
+    width: 92.5%;
+    height: 10px;
+    text-align: center;
+    padding: 50px;
+    color: white;
+   
+}
+html {
+    scroll-behavior: smooth;
+}

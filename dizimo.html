@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular Dízimo</title>
+    <style>
+        body {
+    
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 100px auto;
+            background-color: #e0e6e9;
+            font-size: 18px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: #023047;
+        }
+    
+        .calc {
+    
+            background-color: #219ebc;
+            width: 400px;
+            height: 320px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 10px 20px;
+            border-radius: 10px;
+            box-shadow: 0px 10px 10px 0px;
+            padding-bottom: 20px;
+    
+        }
+    
+        .calc p {
+            font-size: 20px;
+            margin-top: 20px;
+            font-weight: 800;
+        }
+    
+        .calc input {
+            padding: 5px 5px;
+            width: 80px;
+            height: 20px;
+            border-radius: 5px;
+            border: none;
+            margin-bottom: 20px;
+    
+        }
+    
+        .calc button {
+            width: 130px;
+            height: 40px;
+            background-color: #023047;
+            color: #ffffff;
+            padding: 2px 2px;
+            font-weight: 700;
+            border: none;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+    
+        .dizimo {
+            margin: 10px;
+            width: 180px;
+            height: 50px;
+            padding: 10px 10px;
+            background-color: #023047;
+            color: white;
+            font-size: 14px;
+            border: none;
+            border-radius: 8px;
+            font-family: Arial, Helvetica, sans-serif;
+    
+        }
+    </style>
+</head>
+<body>
+
+    <div class="calc">
+        <h1>Calculadora de Dízimo</h1>
+        <p>Digite o salário</p>
+        <input type="number">
+        <button class="botao" onclick="calcular()">Calcular dízimo</button>
+
+        <div class="dizimo">
+            Aguardando valor...
+        </div>
+    </div>
+
+    <script>
+
+
+        let botao = document.querySelector('button')
+       
+
+        function calcular() {
+            let salario = document.querySelector('input').value
+            let calculo = (salario * 10) /100;
+            let dizimo = document.querySelector('.dizimo')
+
+            dizimo.innerHTML = `Você devolverá R$${calculo} de dízimo!`
+            
+            
+        }
+        
+        
+    
+
+
+      
+
+        
+
+        
+
+
+    
+     
+
+    </script>
+
+
+</body>
+</html>

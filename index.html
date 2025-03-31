@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portifólio</title>
+</head>
+
+<body>
+    <header class="container">
+        <img src="/assets/LOGO01.png" alt="">
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <a href="">Habilidades</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+        <div class="botaocurriculo">
+            <p>Currículo</p>
+        </div>
+    </header>
+
+    <section class="sessao1 " id="sobre">
+        <div class="foto"><img src="/assets/foto.jpg" alt=""></div>
+        <div class="bio">
+            <h2 class="titulo">George Santos</h2>
+            <h2 class="subtitulo">Desenvolvedor Front-End | HTML | CSS | JS | Angular</h2>
+            <p>Desde o primeiro contato com a informática, desenvolvi um forte interesse pela tecnologia que me guiou em
+                diversas etapas da minha carreira. Comecei minha trajetória como sócio de uma lanhouse, onde adquiri
+                habilidades em manutenção de computadores e atendi clientes da cidade. Meu interesse por desenvolvimento
+                web, design e edição de vídeo cresceu ao longo do tempo, o que me motivou a ingressar na faculdade de
+                Ciência da Computação(Licenciatura) na Universidade Federal do Vale do São Francisco em 2018.</p>
+        </div>
+    </section>
+    <section class="sessao2 " id="projetos">
+        <div class="info">
+            <h2>Projetos em JavaScript</h2>
+            <p>O primeiro é uma Calculadora de notas, através desse programinha é possível calcular a media das notas
+                digitadas.
+            </p>
+            <p>O segundo é uma calculadora de IMC, através desse programa é possível calcular o índice de massa
+                corporal, uma medida internacional usada para calcular se uma pessoa está no peso ideal. </p>
+        </div>
+        <div class="projeto1">
+            <div class="title">Calcular Média</div>
+            <div class="cal">
+                <p>Digite as notas:</p>
+                <input class="formNotas" type="number">
+                <button class="adicionar" onclick="adicionar()">Adicionar</button>
+            </div>
+            <button class="btn1">Calcular</button>
+            <div class="result">
+                <p class="resultado"> </p>
+                <p class="resMedia"></p>
+                <p class="infoMedia"></p>
+            </div>
+
+        </div>
+        <div class="projeto2">
+            <div class="title">Calculadora IMC</div>
+            </2>
+            <div class="nom">
+                <p>Nome:</p>
+                <input class="inp" type="text">
+            </div>
+            <div class="alt">
+                <p>Altura:</p>
+                <input class="altura" type="number">
+            </div>
+            <div class="peso">
+                <p>Peso:</p>
+                <input class="pes" type="number">
+            </div>
+
+            <button onclick="imc()">Calcular</button>
+            <div class="res">
+                <p class="resu"></p>
+                <p class="clas"></p>
+            </div>
+        </div>
+    </section>
+    <footer class="rodape " id="contato">
+        <p>George Santos | Todos os direitos reservados</p>
+    </footer>
+
+    <script src="projetos.js"></script>
+</body>
+
+</html>
