@@ -1,0 +1,81 @@
+@media screen and (max-width: 768px) {
+    body{
+        width: 100%;
+        box-sizing: 0;
+    }
+
+    header{
+        width: 100%;
+    }
+    header nav  {
+        display: none;
+       
+    }
+    header .botaocurriculo {
+        display: none;
+    }
+    .sessao1 {
+      display: flex;
+       flex-direction: column;
+       justify-content: center;
+       width: 127.5%;
+       height: 100%;
+    }
+    .sessao1 .bio {
+        width: 398px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 200px;
+        
+
+    }
+    .sessao1 .imG{
+        width: 200px;
+        height: 200px;
+    }
+    .sessao1 .foto {
+        width: 200px;
+        height: 200px;
+        margin-top: 60px;
+        padding-bottom: 3px;
+        margin-right: auto;
+    }
+    .sessao1 .titulo {
+        font-size: 25px;
+        text-align: center;
+        margin-right: 50px;
+      
+    }
+    .sessao1 .subtitulo {
+        margin-right: 50px;
+        font-size: 12px;
+        text-align: center;
+       
+    }
+    .sessao1 .texto{
+        font-size: 12px;
+        width: 350px;  
+    }
+    .sessao2 {
+        display: flex;
+        flex-direction: column;
+       
+        height: 100%;
+        padding: 50px;
+    }
+    .rodape {
+        width: 100%;
+        font-size: 15px;
+    }
+    .log{
+        margin: auto;
+        width: 120px;
+    }
+
+
+
+    
+}
+
+   

@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    width: 1330px;
+    width: 99.5%;
     height: 150px;
     background-color: #204E5A;
     display: flex;
@@ -63,6 +63,9 @@ header nav a{
     padding-top: 13px;
     padding-bottom: -8px;
 }
+
+
+
 .sessao1{
     width: 100%;
     height: 500px;
@@ -74,7 +77,7 @@ header nav a{
     margin-top: 150px;
 }
 
-.sessao1 img{
+.sessao1 .imG{
     width: 400px;
     height: 400px;
     border-radius: 300px;  
@@ -89,6 +92,7 @@ header nav a{
    
 }
 
+  
 .bio{
     font-family: "Inter", sans-serif;
     width: 700px;
